@@ -1,0 +1,69 @@
+@article{rahman2013,
+  title={Application of fault tree analysis for customer reliability assessment of a distribution power system},
+  author={Rahman, Fariz Abdul and Varuttamaseni, Athi and Kintner-Meyer, Michael and Lee, John C},
+  journal={Reliability Engineering \& System Safety},
+  volume={111},
+  pages={76--85},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{abecassis2015,
+  title={Applying fault tree analysis to the prevention of wrong-site surgery},
+  author={Abecassis, Zachary A and McElroy, Lisa M and Patel, Ronak M and Khorzad, Rebeca and Carroll, Charles and Mehrotra, Sanjay},
+  journal={Journal of Surgical Research},
+  volume={193},
+  number={1},
+  pages={88--94},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{
+year={2011},
+issn={1547-7029},
+journal={Journal of Failure Analysis and Prevention},
+volume={11},
+number={1},
+doi={10.1007/s11668-010-9410-3},
+title={Reliability Assessment of Cogeneration Power Plant in Textile Mill Using Fault Tree Analysis},
+publisher={Springer US},
+keywords={Fault tree analysis; Common cause failures; Minimal cut set},
+author={Ramesh, Vallem and Saravannan, R.},
+pages={56-70},
+language={English}
+}
+
+@ARTICLE{Chen2007,
+author={Chen, S.K. and Ho, T.K. and Mao, B.H.},
+journal={Electric Power Applications, IET},
+title={Reliability evaluations of railway power supplies by fault-tree analysis},
+year={2007},
+month={March},
+volume={1},
+number={2},
+pages={161-172},
+doi={10.1049/iet-epa:20060244},
+ISSN={1751-8660},}
+
+@article{volkanovski2009,
+  title={Application of the fault tree analysis for assessment of power system reliability},
+  author={Volkanovski, Andrija and {\v{C}}epin, Marko and Mavko, Borut},
+  journal={Reliability Engineering \& System Safety},
+  volume={94},
+  number={6},
+  pages={1116--1127},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{hauptmanns2010,
+  title={A decision-making framework for protecting process plants from flooding based on fault tree analysis},
+  author={Hauptmanns, Ulrich},
+  journal={Reliability Engineering \& System Safety},
+  volume={95},
+  number={9},
+  pages={970--980},
+  year={2010},
+  publisher={Elsevier}
+}

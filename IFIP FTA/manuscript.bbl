@@ -2,6 +2,17 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
+\bibitem{abecassis2015}
+Abecassis, Z.A., McElroy, L.M., Patel, R.M., Khorzad, R., Carroll, C.,
+  Mehrotra, S.: Applying fault tree analysis to the prevention of wrong-site
+  surgery. Journal of Surgical Research  193(1),  88--94 (2015)
+
+\bibitem{lamis2014}
+Al-Qora’n, L., Gordon, N., Walker, M., Sharvia, S., Kabir, S.: A safety
+  analysis approach to clinical workflows: Application and evaluation.
+  International Journal of Advanced Computer Science and Applications(IJACSA)
+  4(3),  82--91 (2014)
+
 \bibitem{John1998}
 Andrews, J.: Tutorial: {F}ault {T}ree {A}nalysis. In: Proceedings of the 16th
   International System Safety Conference (1998),
@@ -21,6 +32,11 @@ Boyd, C.E., Romaire, R.P., Johnston, E.: Predicting early morning dissolved
 Boyd, C.E., Tucker, C.S., et~al.: Water quality and pond soil analyses for
   aquaculture. Water quality and pond soil analyses for aquaculture  (1992)
 
+\bibitem{Chen2007}
+Chen, S., Ho, T., Mao, B.: Reliability evaluations of railway power supplies by
+  fault-tree analysis. Electric Power Applications, IET  1(2),  161--172 (March
+  2007)
+
 \bibitem{culberson1996}
 Culberson, S.D., Piedrahita, R.H.: Aquaculture pond ecosystem model:
   temperature and dissolved oxygen prediction mechanism and application.
@@ -31,9 +47,23 @@ FAO: The state of world fisheries and aquaculture 2012. Selected issues in
   fisheries and aquaculture pp. 1--148 (2012),
   \url{http://www.fao.org/docrep/016/i2727e/i2727e01.pdf}
 
+\bibitem{Isograph2014}
+Isograph: Reliability workbench.
+  \url{http://www.isograph.com/software/reliability-workbench/} (2014),
+  accessed: 2014-09-01
+
 \bibitem{Leveson1995}
 Leveson, N.G.: Safeware: System Safety and Computers. ACM, New York, NY, USA
   (1995)
+
+\bibitem{Papadopoulos2012}
+Papadopoulos, Y.: Hi{P}-{HOPS}. \url{http://hip-hops.eu/} (2012), accessed:
+  2014-09-01
+
+\bibitem{Ramesh2011}
+Ramesh, V., Saravannan, R.: Reliability assessment of cogeneration power plant
+  in textile mill using fault tree analysis. Journal of Failure Analysis and
+  Prevention  11(1),  56--70 (2011)
 
 \bibitem{Vesely2002}
 Vesely, W., Dugan, J., Fragola, J., Minarick, Railsback, J.: {Fault Tree
@@ -44,6 +74,11 @@ Vesely, W., Dugan, J., Fragola, J., Minarick, Railsback, J.: {Fault Tree
 Villemeur, A.: Reliability, Availability, Maintainability and Safety
   Assessment: Methods and Techniques, vol.~1. John Wiley \& Sons, Chichester
   (1991)
+
+\bibitem{volkanovski2009}
+Volkanovski, A., {\v{C}}epin, M., Mavko, B.: Application of the fault tree
+  analysis for assessment of power system reliability. Reliability Engineering
+  \& System Safety  94(6),  1116--1127 (2009)
 
 \bibitem{Martin2009}
 Walker, M.D.: Pandora: {A} {L}ogic for the {Q}ualitative {A}nalysis of
