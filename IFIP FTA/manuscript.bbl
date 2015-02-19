@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{John1998}
+Andrews, J.: Tutorial: {F}ault {T}ree {A}nalysis. In: Proceedings of the 16th
+  International System Safety Conference (1998),
+  \url{http://www.fault-tree.net/papers/andrews-fta-tutor.pdf}
+
+\bibitem{Bernardi2007}
+Bernardi, S., Merseguer, J.: A uml profile for dependability analysis of
+  real-time embedded systems. In: Proceedings of the 6th International Workshop
+  on Software and Performance. pp. 115--124. ACM, New York, USA (2007)
+
+\bibitem{boyd1978}
+Boyd, C.E., Romaire, R.P., Johnston, E.: Predicting early morning dissolved
+  oxygen concentrations in channel catfish ponds. Transactions of the American
+  Fisheries Society  107(3),  484--492 (1978)
+
+\bibitem{boyd1992}
+Boyd, C.E., Tucker, C.S., et~al.: Water quality and pond soil analyses for
+  aquaculture. Water quality and pond soil analyses for aquaculture  (1992)
+
+\bibitem{culberson1996}
+Culberson, S.D., Piedrahita, R.H.: Aquaculture pond ecosystem model:
+  temperature and dissolved oxygen prediction mechanism and application.
+  Ecological modelling  89(1),  231--258 (1996)
+
+\bibitem{Fao2012}
+FAO: The state of world fisheries and aquaculture 2012. Selected issues in
+  fisheries and aquaculture pp. 1--148 (2012),
+  \url{http://www.fao.org/docrep/016/i2727e/i2727e01.pdf}
+
+\bibitem{Leveson1995}
+Leveson, N.G.: Safeware: System Safety and Computers. ACM, New York, NY, USA
+  (1995)
+
+\bibitem{Vesely2002}
+Vesely, W., Dugan, J., Fragola, J., Minarick, Railsback, J.: {Fault Tree
+  Handbook with Aerospace Applications}. Tech. rep., N{ASA} office of safety
+  and mission assurance, Washington, DC (2002)
+
+\bibitem{Alain1991}
+Villemeur, A.: Reliability, Availability, Maintainability and Safety
+  Assessment: Methods and Techniques, vol.~1. John Wiley \& Sons, Chichester
+  (1991)
+
+\bibitem{Martin2009}
+Walker, M.D.: Pandora: {A} {L}ogic for the {Q}ualitative {A}nalysis of
+  {T}emporal {F}ault {T}rees. Ph.D. thesis, University of Hull (2009)
+
+\bibitem{Vesely1981}
+Weseley, W., Goldberg, F., Roberts, N., Haasl, D.: {Fault Tree Handbook:
+  NUREG-0492}. {US Nuclear Regulatory Commission}, {Washington, D.C.} (1981)
+
+\end{thebibliography}
