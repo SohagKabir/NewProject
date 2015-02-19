@@ -32,6 +32,9 @@ Boyd, C.E., Romaire, R.P., Johnston, E.: Predicting early morning dissolved
 Boyd, C.E., Tucker, C.S., et~al.: Water quality and pond soil analyses for
   aquaculture. Water quality and pond soil analyses for aquaculture  (1992)
 
+\bibitem{cepin2011assessment}
+Cepin, M.: Assessment of power system reliability. springer (2011)
+
 \bibitem{Chen2007}
 Chen, S., Ho, T., Mao, B.: Reliability evaluations of railway power supplies by
   fault-tree analysis. Electric Power Applications, IET  1(2),  161--172 (March
@@ -46,6 +49,11 @@ Culberson, S.D., Piedrahita, R.H.: Aquaculture pond ecosystem model:
 FAO: The state of world fisheries and aquaculture 2012. Selected issues in
   fisheries and aquaculture pp. 1--148 (2012),
   \url{http://www.fao.org/docrep/016/i2727e/i2727e01.pdf}
+
+\bibitem{hayes2002identifying}
+Hayes, K.R.: Identifying hazards in complex ecological systems. part 1:
+  fault-tree analysis for biological invasions. Biological Invasions  4(3),
+  235--249 (2002)
 
 \bibitem{Isograph2014}
 Isograph: Reliability workbench.
@@ -64,6 +72,11 @@ Papadopoulos, Y.: Hi{P}-{HOPS}. \url{http://hip-hops.eu/} (2012), accessed:
 Ramesh, V., Saravannan, R.: Reliability assessment of cogeneration power plant
   in textile mill using fault tree analysis. Journal of Failure Analysis and
   Prevention  11(1),  56--70 (2011)
+
+\bibitem{shu2006using}
+Shu, M.H., Cheng, C.H., Chang, J.R.: Using intuitionistic fuzzy sets for
+  fault-tree analysis on printed circuit board assembly. Microelectronics
+  Reliability  46(12),  2139--2148 (2006)
 
 \bibitem{Vesely2002}
 Vesely, W., Dugan, J., Fragola, J., Minarick, Railsback, J.: {Fault Tree
