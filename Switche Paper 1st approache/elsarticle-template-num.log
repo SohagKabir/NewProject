@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.7)  19 FEB 2015 14:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.7)  19 FEB 2015 18:08
 entering extended mode
 **elsarticle-template-num.tex
 
-("\\net\dfs\home\481213\Desktop\General genom Data sets\Switche Paper 1st appro
-ache\elsarticle-template-num.tex"
+("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
+m.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -97,9 +97,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-("\\net\dfs\home\481213\Desktop\General genom Data sets\Switche Paper 1st appro
-ache\elsarticle-template-num.spl")
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
+m.spl") ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -162,8 +161,8 @@ Package: algcompatible
 Document Style - algorithmic compatible environments for the `algorithmicx' sty
 le
 )
-("\\net\dfs\home\481213\Desktop\General genom Data sets\Switche Paper 1st appro
-ache\elsarticle-template-num.aux"
+("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
+m.aux"
 
 LaTeX Warning: Label `Fig1' multiply defined.
 
@@ -233,19 +232,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] [5 <//net/dfs/home/481213/Desktop/General genom Data sets/Switche Paper
- 1st approache/Images/Drawing1-1.jpg>] [6 <//net/dfs/home/481213/Desktop/Genera
-l genom Data sets/Switche Paper 1st approache/Images/Drawing2.jpg>]
-("\\net\dfs\home\481213\Desktop\General genom Data sets\Switche Paper 1st appro
-ache\elsarticle-template-num.aux")
+[3] [4] [5 <C:/Sohag github/NewProject/Switche Paper 1st approache/Images/Drawi
+ng1-1.jpg>] [6 <C:/Sohag github/NewProject/Switche Paper 1st approache/Images/D
+rawing2.jpg>]
+("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
+m.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  2799 strings out of 493921
- 36635 string characters out of 3147280
- 90826 words of memory out of 3000000
+ 36392 string characters out of 3147280
+ 91826 words of memory out of 3000000
  6067 multiletter control sequences out of 15000+200000
  11822 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -257,7 +256,7 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on elsarticle-template-num.pdf (6 pages, 275996 bytes).
+Output written on elsarticle-template-num.pdf (6 pages, 276040 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
