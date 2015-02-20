@@ -28,9 +28,10 @@ Boyd, C.E., Romaire, R.P., Johnston, E.: Predicting early morning dissolved
   oxygen concentrations in channel catfish ponds. Transactions of the American
   Fisheries Society  107(3),  484--492 (1978)
 
-\bibitem{boyd1992}
-Boyd, C.E., Tucker, C.S., et~al.: Water quality and pond soil analyses for
-  aquaculture. Water quality and pond soil analyses for aquaculture  (1992)
+\bibitem{boyd2002}
+Boyd, C.E., Wood, C.W., Thunjai, T.: Aquaculture pond bottom soil quality
+  management. Pond Dynamics/Aquaculture Collaborative Research Support Program,
+  Oregon State University (2002)
 
 \bibitem{cepin2011assessment}
 Cepin, M.: Assessment of power system reliability. springer (2011)
@@ -81,7 +82,11 @@ Shu, M.H., Cheng, C.H., Chang, J.R.: Using intuitionistic fuzzy sets for
 \bibitem{Vesely2002}
 Vesely, W., Dugan, J., Fragola, J., Minarick, Railsback, J.: {Fault Tree
   Handbook with Aerospace Applications}. Tech. rep., N{ASA} office of safety
-  and mission assurance, Washington, DC (2002)
+  and mission assurance, Washington DC (2002)
+
+\bibitem{Vesely1981}
+Vesely, W., Goldberg, F., Roberts, N., Haasl, D.: {Fault Tree Handbook:
+  NUREG-0492}. {US Nuclear Regulatory Commission}, {Washington DC} (1981)
 
 \bibitem{Alain1991}
 Villemeur, A.: Reliability, Availability, Maintainability and Safety
@@ -96,9 +101,5 @@ Volkanovski, A., {\v{C}}epin, M., Mavko, B.: Application of the fault tree
 \bibitem{Martin2009}
 Walker, M.D.: Pandora: {A} {L}ogic for the {Q}ualitative {A}nalysis of
   {T}emporal {F}ault {T}rees. Ph.D. thesis, University of Hull (2009)
-
-\bibitem{Vesely1981}
-Weseley, W., Goldberg, F., Roberts, N., Haasl, D.: {Fault Tree Handbook:
-  NUREG-0492}. {US Nuclear Regulatory Commission}, {Washington, D.C.} (1981)
 
 \end{thebibliography}
