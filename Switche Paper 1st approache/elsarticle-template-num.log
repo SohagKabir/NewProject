@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.7)  19 FEB 2015 18:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.7)  20 FEB 2015 16:19
 entering extended mode
 **elsarticle-template-num.tex
 
-("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
-m.tex"
+("\\net\dfs\home\481213\Desktop\Switche Paper 1st approache\elsarticle-template
+-num.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -97,8 +97,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
-m.spl") ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("\\net\dfs\home\481213\Desktop\Switche Paper 1st approache\elsarticle-template
+-num.spl") ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -118,13 +118,33 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen109
+\lightrulewidth=\dimen110
+\cmidrulewidth=\dimen111
+\belowrulesep=\dimen112
+\belowbottomsep=\dimen113
+\aboverulesep=\dimen114
+\abovetopsep=\dimen115
+\cmidrulesep=\dimen116
+\cmidrulekern=\dimen117
+\defaultaddspace=\dimen118
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen119
+\@belowrulesep=\dimen120
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen121
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count95
+\c@float@type=\count99
 \float@exts=\toks18
 \float@box=\box30
 \@float@everytoks=\toks19
@@ -134,7 +154,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks20
-\c@algorithm=\count96
+\c@algorithm=\count100
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
@@ -143,15 +163,15 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count97
-\c@ALG@rem=\count98
-\c@ALG@nested=\count99
+\c@ALG@line=\count101
+\c@ALG@rem=\count102
+\c@ALG@nested=\count103
 \ALG@tlm=\skip47
 \ALG@thistlm=\skip48
-\c@ALG@Lnr=\count100
-\c@ALG@blocknr=\count101
-\c@ALG@storecount=\count102
-\c@ALG@tmpcounter=\count103
+\c@ALG@Lnr=\count104
+\c@ALG@blocknr=\count105
+\c@ALG@storecount=\count106
+\c@ALG@tmpcounter=\count107
 \ALG@tmplength=\skip49
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -160,105 +180,97 @@ Package: algcompatible
 
 Document Style - algorithmic compatible environments for the `algorithmicx' sty
 le
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen122
 )
-("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
-m.aux"
-
-LaTeX Warning: Label `Fig1' multiply defined.
-
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+("\\net\dfs\home\481213\Desktop\Switche Paper 1st approache\elsarticle-template
+-num.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen109
+\scratchcounter=\count108
+\scratchdimen=\dimen123
 \scratchbox=\box32
-\nofMPsegments=\count105
-\nofMParguments=\count106
+\nofMPsegments=\count109
+\nofMParguments=\count110
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen110
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen124
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 107.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+LaTeX Font Info:    Try loading font information for U+msb on input line 107.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Images/Drawing1-1.jpg, id=10, 819.06pt x 1608.0075pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<Images/Drawing1-1.jpg, id=14, 819.06pt x 1608.0075pt>
 File: Images/Drawing1-1.jpg Graphic file (type jpg)
 
 <use Images/Drawing1-1.jpg>
-Package pdftex.def Info: Images/Drawing1-1.jpg used on input line 149.
+Package pdftex.def Info: Images/Drawing1-1.jpg used on input line 151.
 (pdftex.def)             Requested size: 400.00565pt x 544.99779pt.
 
-Overfull \hbox (10.00565pt too wide) in paragraph at lines 149--150
+Overfull \hbox (10.00565pt too wide) in paragraph at lines 151--152
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 34.44223pt on input line 153.
+LaTeX Warning: Float too large for page by 34.44223pt on input line 155.
 
-<Images/Drawing2.jpg, id=11, 785.93625pt x 449.68pt>
-File: Images/Drawing2.jpg Graphic file (type jpg)
- <use Images/Drawing2.jpg>
-Package pdftex.def Info: Images/Drawing2.jpg used on input line 156.
-(pdftex.def)             Requested size: 199.99734pt x 200.00061pt.
 
-[2]
+Package natbib Warning: Citation `pruitt2009ncbi' on page 3 undefined on input 
+line 159.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[3] [4 <//net/dfs/home/481213/Desktop/Switche Paper 1st approache/Images/Drawin
+g1-1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4] [5 <C:/Sohag github/NewProject/Switche Paper 1st approache/Images/Drawi
-ng1-1.jpg>] [6 <C:/Sohag github/NewProject/Switche Paper 1st approache/Images/D
-rawing2.jpg>]
-("C:\Sohag github\NewProject\Switche Paper 1st approache\elsarticle-template-nu
-m.aux")
 
-LaTeX Warning: There were multiply-defined labels.
+Package natbib Warning: There were undefined citations.
 
- ) 
+[5] [6] [7]
+("\\net\dfs\home\481213\Desktop\Switche Paper 1st approache\elsarticle-template
+-num.aux") ) 
 Here is how much of TeX's memory you used:
- 2799 strings out of 493921
- 36392 string characters out of 3147280
- 91826 words of memory out of 3000000
- 6067 multiletter control sequences out of 15000+200000
- 11822 words of font info for 44 fonts, out of 3000000 for 9000
+ 2868 strings out of 493921
+ 37403 string characters out of 3147280
+ 99721 words of memory out of 3000000
+ 6128 multiletter control sequences out of 15000+200000
+ 12130 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,7n,30p,871b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on elsarticle-template-num.pdf (6 pages, 276040 bytes).
+ 34i,10n,30p,1357b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on elsarticle-template-num.pdf (7 pages, 265690 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

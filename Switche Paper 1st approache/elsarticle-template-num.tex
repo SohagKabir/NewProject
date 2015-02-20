@@ -39,10 +39,11 @@
 
 %% The amssymb package provides various useful mathematical symbols
 \usepackage{amssymb}
+\usepackage{booktabs}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage{algcompatible}
-
+\usepackage{multirow}
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
 
@@ -113,6 +114,7 @@
 \subsection{Huffman Coding}
 \subsection{Power consumption}
 \subsection{Issues in Biological data transmission}
+The size of biological data base increase with an expanding rate and it doesn't stop for increasing. In the last decade the use of biological data history increase which evolve a high request to data from this high volume biological data base. The exponential growth of these databases become a big problem to all biological data processing methods. Data compression methods is the most used methods to evolve the reduce the cost of treatment of high volume data bases.  The main objective of data compression methods is minimising the number of bits in the data representation. Authors in [] proposed a new approach to genomic data compression based in suffix and common substring and code the difference with Huffman code. In [16], authors propose a general scheme for coding only the difference between the target genome and the referential one, the coding method used is Huffman. Recent work on data compression for biological data have been proposed to deal with transmission of genomic data as an email attachment [][][]. Cost of data transmission is based on two point, firstly the size of the data which has been improved considerably in the recent year with the improvement of Huffman code. Secondly, is the number of switches on the generated codes. The power consumption increase linear with the number of switches.
 \section{GA-SO : Genetic algorithm for Switches Optimising}
 Genetic algorithm (GA) is one the of the most popular bio-inspired meta-heuristic algorithm inspired from the natural evolution of species []. It is a  population based algorithm starts with the generation of a random initial population. The population contain a set of feasible solutions called individuals, that are usually far from the optimal. The GA optimisation process uses a set of natural genetic operators such as selection, crossover and mutation to converge to the optimal solution.
 \subsection{Preparing data and population generation}
@@ -144,23 +146,85 @@ The crossover operation aims to generate new solutions from the current solution
 %\algstore{myalg}
 \end{algorithmic}
 \end{algorithm}
-\begin{figure}[t]
+\begin{figure}[tbph]
 \begin{center}
 \includegraphics[width=400pt,height=545pt]{Images/Drawing1-1.jpg}
 \caption{The Crossover operator}
 \end{center}
 \label{Fig1}
 \end{figure}
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=200pt,height=200pt]{Images/Drawing2.jpg}
-\caption{The Mutation operator}
-\end{center}
-\label{Fig1}
-\end{figure}
+
 \section{Experiments and Comparison}
-\subsection{Datasets Description}
-\subsection{Results}
+
+The effectiveness of the approach has been evaluated with different real genomic biological data, these genomes were downloaded from a recent version of The National Center for Biotechnology Information (NCBI) available on $(http://www.ncbi.nlm.nih.gov)$ \cite{pruitt2009ncbi}. We focused on the sequences alone, ignoring any header and any other exogenous information. In table 3, the different data sets are described with the size  of each of them in megabytes (MB) and the references on the biological data bank.
+
+\begin{table}[!thpb]
+
+\small
+\label{table3}
+\caption{Datasets description}
+%\begin{center}
+\centering
+\begin{tabular}{c  c  c c}
+\toprule
+$\textbf{Data sets}$ &$\textbf{Name}$ &	$\textbf{Size (MB)}$ &	$\textbf{Reference}$ \\\hline
+Genome 1& Mycobacterium smegmatis &  6.66 & CP009496  \\\hline
+
+Genome 2& Amycolatopsis benzoatilytica & 8.30 & NZ\_KB912942 \\\hline
+
+\multirow{2}{*}{Genome 3}&Mycobacterium rhodesiae& \multirow{2}{*}{6.11} & \multirow{2} {*}{CP003169}\\ 
+&NBB3& &\\
+\hline
+
+\multirow{2}{*}{Genome 4 }&Streptomyces bottropensis& \multirow{2}{*}{8.54} &
+\multirow{2}{*}{NZ\_KB911581} \\ 
+& ATCC 25435 \\
+\hline
+    
+\multirow{2}{*}{Genome 5}&Mycobacterium smegmatis& \multirow{2}{*}{ 6.66} &\multirow{2}{*}{CP009494             } \\ 
+&str. MC2 155 \\
+\hline
+
+\multirow{2}{*}{Genome 6}&Mycobacterium smegmatis& \multirow{2}{*}{6.76} &\multirow{2}{*}{NZ\_KI421511}\\   &MKD8& &\\
+\hline
+    
+Genome 7& Bradyrhizobium WSM471&  7.42 &NZ\_CM001442\\\hline
+
+\multirow{2}{*}{Genome 8}&Amycolatopsis thermoflava&  \multirow{2}{*}{8.27} &\multirow{2}{*}{NZ\_CM001442}\\   &N1165 & \\
+\hline
+
+\multirow{2}{*}{Genome 9}&Bacillus thuringiensis&   \multirow{2}{*}{5.74} &\multirow{2}{*}{ NZ\_CM000747 }\\    &Bt407&\\
+\hline    
+
+\multirow{2}{*}{Genome 10}&Bacillus thuringiensis& \multirow{2}{*}{6.03} &\multirow{2}{*}{ NZ\_CM000748}\\    &serovar thuringiensis& \\
+\hline
+    
+\multirow{2}{*}{Genome 11}&Pseudomonas aeruginosa& \multirow{2}{*}{6.48} &\multirow{2}{*}{NZ\_AFXI01000001}\\    &9BR&\\
+\hline
+    
+\multirow{2}{*}{Genome 12}&Bacillus thuringiensis&  \multirow{2}{*}{5.97} &\multirow{2}{*}{ NZ\_CM000753}\\    &serovar berliner ATCC &\\
+\hline
+    
+\multirow{2}{*}{Genome 13}&Bacillus thuringiensis& \multirow{2}{*}{5.75} &\multirow{2}{*}{ NZ\_CM000750 }\\    &serovar pakistani&\\
+\hline
+    
+\multirow{2}{*}{Genome 14}&Pseudomonas aeruginosa& \multirow{2}{*}{6.28} &\multirow{2}{*}{CP006982}\\    &LES400&\\
+\hline
+
+\multirow{2}{*}{Genome 15}& Mus musculus & \multirow{2}{*}{25.58} &\multirow{2}{*}{GL456087}\\  &chromosome 1&\\
+\hline
+
+\multirow{2}{*}{Genome 16}& Danio rerio & \multirow{2}{*}{56.14} &\multirow{2}{*}{CM002885}\\ & chromosome 1 &\\
+\hline
+\multirow{2}{*}{Genome 17}&Homo sapiens & \multirow{2}{*}{76.64 } &\multirow{2}{*}{  CM000680  }\\    & chromosome 18 &\\
+\hline
+\multirow{2}{*}{Genome 18}&Homo sapiens & \multirow{2}{*}{99.94} &\multirow{2}{*}{CM000684   }\\ & chromosome 22&\\
+\hline
+%\bottomrule
+\end{tabular}
+%\end{center}
+\end{table} 
+
 \begin{table}[h]
 \renewcommand{\arraystretch}{1.1}
 \small
@@ -179,17 +243,17 @@ Genome 4&25.18&16.26& 35.42\\\hline
 Genome 5& 19.24& 16.08 &16.42 \\\hline
 Genome 6& 19.61&14.96&23.71\\\hline
 Genome 7& 22.40 &13.21&41.02\\\hline
-Genome 8&23.87 & \\\hline
-Genome 9& &\\\hline
-Genome 10& & \\\hline
-Genome 11& & \\\hline
-Genome 12& &\\\hline
-Genome 13& &\\\hline
-Genome 14& & \\\hline
-Genome 15& & \\\hline
-Genome 16&& \\\hline
-Genome 17& & \\\hline
-Genome 18& & \\\hline
+Genome 8&23.87 & 17.70 &25.84\\\hline
+Genome 9&17.66 &10.04&43.14\\\hline
+Genome 10& 18.14 &9.89& 45.47 \\\hline
+Genome 11&19.63&11.48&41.51 \\\hline
+Genome 12& 17.59&11.86&32.57 \\\hline
+Genome 13& &&\\\hline
+Genome 14& && \\\hline
+Genome 15& && \\\hline
+Genome 16&&& \\\hline
+Genome 17& && \\\hline
+Genome 18& && \\\hline
 
 %\bottomrule
 \end{tabular}
