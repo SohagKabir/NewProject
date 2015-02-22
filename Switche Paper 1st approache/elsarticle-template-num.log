@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.30)  22 FEB 2015 19:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.11.30)  22 FEB 2015 22:42
 entering extended mode
 **elsarticle-template-num.tex
 
@@ -224,44 +224,56 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-<Images/Drawing1-1.jpg, id=13, 819.06pt x 1608.0075pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+<Images/Drawing1-1.jpg, id=17, 819.06pt x 1608.0075pt>
 File: Images/Drawing1-1.jpg Graphic file (type jpg)
 
 <use Images/Drawing1-1.jpg>
-Package pdftex.def Info: Images/Drawing1-1.jpg used on input line 153.
+Package pdftex.def Info: Images/Drawing1-1.jpg used on input line 158.
 (pdftex.def)             Requested size: 400.00565pt x 544.99779pt.
 
-Overfull \hbox (10.00565pt too wide) in paragraph at lines 153--154
+Overfull \hbox (10.00565pt too wide) in paragraph at lines 158--159
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 34.44223pt on input line 157.
+LaTeX Warning: Float too large for page by 34.44223pt on input line 162.
 
 
-Package natbib Warning: Citation `pruitt2009ncbi' on page 3 undefined on input 
-line 161.
+Package natbib Warning: Citation `pruitt2009ncbi' on page 4 undefined on input 
+line 166.
 
-[3] [4 <C:/Users/SOHAG/Documents/GitHub/paper with yusuf/NewProject/Switche Pap
+[4] [5 <C:/Users/SOHAG/Documents/GitHub/paper with yusuf/NewProject/Switche Pap
 er 1st approache/Images/Drawing1-1.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ("C:\Users\SOHAG\Documents\GitHub\paper with yusuf\NewProject\Switche Paper 1st
- approache\elsarticle-template-num.bbl")
+ approache\elsarticle-template-num.bbl" [6] [7] [8]
+Underfull \hbox (badness 1783) in paragraph at lines 55--60
+[]\OT1/cmr/m/n/12 C.-Y. Chen, Y.-T. Pai, S.-J. Ruan, Low power huff-man cod-ing
+
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 55--60
+\OT1/cmr/m/n/12 for high per-for-mance data trans-mis-sion, in: In-ter-na-tiona
+l Con-fer-
+ []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
-[5] [6] [7]
+[9]
 ("C:\Users\SOHAG\Documents\GitHub\paper with yusuf\NewProject\Switche Paper 1st
  approache\elsarticle-template-num.aux") ) 
 Here is how much of TeX's memory you used:
- 2875 strings out of 493921
- 37975 string characters out of 3147281
- 101721 words of memory out of 3000000
- 6132 multiletter control sequences out of 15000+200000
+ 2899 strings out of 493921
+ 38332 string characters out of 3147281
+ 102841 words of memory out of 3000000
+ 6156 multiletter control sequences out of 15000+200000
  12130 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,10n,30p,1357b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -273,9 +285,9 @@ mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on elsarticle-template-num.pdf (7 pages, 267567 bytes).
+Output written on elsarticle-template-num.pdf (9 pages, 273245 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

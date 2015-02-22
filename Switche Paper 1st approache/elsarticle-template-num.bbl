@@ -9,4 +9,53 @@
 A.~P. Chandrakasan, R.~W. Brodersen, Minimizing power consumption in digital
   cmos circuits, Proceedings of the IEEE 83~(4) (1995) 498--523.
 
+\bibitem{Gregori2004}
+S.~Gregori, Y.~Li, H.~Li, J.~Liu, F.~Maloberti, 2.45 {GH}z power and data
+  transmission for a low-power autonomous sensors platform, in: Proceedings of
+  the 2004 International Symposium on Low Power Electronics and Design (ISLPED
+  '04), 2004, pp. 269--273.
+
+\bibitem{Yates04}
+D.~Yates, A.~Holmes, A.~Burdett, Optimal transmission frequency for
+  ultralow-power short-range radio links, IEEE Transactions on Circuits and
+  Systems 51~(7) (2004) 1405--1413.
+\newblock \href {http://dx.doi.org/10.1109/TCSI.2004.830696}
+  {\path{doi:10.1109/TCSI.2004.830696}}.
+
+\bibitem{Le11}
+L.~Wang, A.~Ukhanova, E.~Belyaev, Power consumption analysis of constant bit
+  rate data transmission over 3g mobile wireless networks, in: 11th
+  International Conference on ITS Telecommunications (ITST), 2011, pp.
+  217--223.
+\newblock \href {http://dx.doi.org/10.1109/ITST.2011.6060056}
+  {\path{doi:10.1109/ITST.2011.6060056}}.
+
+\bibitem{toorisaka12}
+W.~Toorisaka, G.~Hasegawa, M.~Murata, Power consumption analysis of data
+  transmission in ieee 802.11 multi-hop networks, in: The Eighth International
+  Conference on Networking and Services (ICNS), 2012, pp. 75--80.
+
+\bibitem{Huff51}
+D.~Huffman, A method for the construction of minimum-redundancy codes,
+  Proceedings of the Institute of Radio Engineers 40~(9) (1952) 1098--1101.
+\newblock \href {http://dx.doi.org/10.1109/JRPROC.1952.273898}
+  {\path{doi:10.1109/JRPROC.1952.273898}}.
+
+\bibitem{Gol12}
+M.~J. Golin, C.~Mathieu, N.~E. Young, {Huffman Coding with Letter Costs: A
+  Linear-Time Approximation Scheme}, {SIAM Journal on Computing} {41}~({3})
+  ({2012}) {684--713}.
+
+\bibitem{Kab14}
+S.~Kabir, T.~Azad, A.~S. M.~A. Alam, M.~Kaykobad, Effects of unequal bit costs
+  on classical huffman codes, in: 17th International Conference on Computer and
+  Information Technology, 2014, pp. 96--101.
+
+\bibitem{Chen06}
+C.-Y. Chen, Y.-T. Pai, S.-J. Ruan, Low power huffman coding for high
+  performance data transmission, in: International Conference on Hybrid
+  Information Technology (ICHIT), 2006, pp. 71--77.
+\newblock \href {http://dx.doi.org/10.1109/ICHIT.2006.253467}
+  {\path{doi:10.1109/ICHIT.2006.253467}}.
+
 \end{thebibliography}
