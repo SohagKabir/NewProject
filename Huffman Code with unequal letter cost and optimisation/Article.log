@@ -1,23 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.9.27)  10 FEB 2015 08:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.7)  23 FEB 2015 14:23
 entering extended mode
 **Article.tex
 
-("C:\Users\456388.NET\OneDrive\Paper to Publish\new plan with yusuf\Sohag-Proje
-ct\Article\Article.tex"
+("C:\Sohag github\NewProject\Huffman Code with unequal letter cost and optimisa
+tion\Article.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\elsarticle\elsarticle
-.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\elsarticle\elsarticle.cls"
 Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
 \@bls=\dimen102
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -99,9 +97,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-("C:\Users\456388.NET\OneDrive\Paper to Publish\new plan with yusuf\Sohag-Proje
-ct\Article\Article.spl")
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+("C:\Sohag github\NewProject\Huffman Code with unequal letter cost and optimisa
+tion\Article.spl") ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -109,8 +106,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
 \splwrite=\write3
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
@@ -121,7 +117,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen109
 \lightrulewidth=\dimen110
@@ -140,7 +136,8 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count97
 \@lastruleclass=\count98
 \@thisrulewidth=\dimen121
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip47
 
@@ -198,11 +195,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.
-sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
- ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count111
 \float@exts=\toks23
@@ -216,12 +213,10 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks25
 \c@algorithm=\count112
 )
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseud
-ocode.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
 
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorith
-micx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -237,9 +232,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip52
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algcompa
-tible.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algcompatible.sty"
 Package: algcompatible 
 
 Document Style - algorithmic compatible environments for the `algorithmicx' sty
@@ -247,8 +240,8 @@ le
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen131
 )
-("C:\Users\456388.NET\OneDrive\Paper to Publish\new plan with yusuf\Sohag-Proje
-ct\Article\Article.aux")
+("C:\Sohag github\NewProject\Huffman Code with unequal letter cost and optimisa
+tion\Article.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
@@ -261,8 +254,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
-
-(C:\Users\456388.NET\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen132
@@ -287,16 +279,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{C:/Users/456388.NET/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3
-] [4] [5] [6]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6]
 <Images/Drawing3_1.jpg, id=36, 605.26125pt x 709.65125pt>
 File: Images/Drawing3_1.jpg Graphic file (type jpg)
 
 <use Images/Drawing3_1.jpg>
 Package pdftex.def Info: Images/Drawing3_1.jpg used on input line 251.
 (pdftex.def)             Requested size: 242.1002pt x 283.85547pt.
- [7] [8 <C:/Users/456388.NET/OneDrive/Paper to Publish/new plan with yusuf/Soha
-g-Project/Article/Images/Drawing3_1.jpg>] [9]
+ [7] [8 <C:/Sohag github/NewProject/Huffman Code with unequal letter cost and o
+ptimisation/Images/Drawing3_1.jpg>] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 306--310
 
  []
@@ -318,9 +309,9 @@ File: Images/Drawing_1.jpg Graphic file (type jpg)
 <use Images/Drawing_1.jpg>
 Package pdftex.def Info: Images/Drawing_1.jpg used on input line 341.
 (pdftex.def)             Requested size: 362.15413pt x 133.59952pt.
- [12 <C:/Users/456388.NET/OneDrive/Paper to Publish/new plan with yusuf/Sohag-P
-roject/Article/Images/Drawing2.jpg>] [13 <C:/Users/456388.NET/OneDrive/Paper to
- Publish/new plan with yusuf/Sohag-Project/Article/Images/Drawing_1.jpg>]
+ [12 <C:/Sohag github/NewProject/Huffman Code with unequal letter cost and opti
+misation/Images/Drawing2.jpg>] [13 <C:/Sohag github/NewProject/Huffman Code wit
+h unequal letter cost and optimisation/Images/Drawing_1.jpg>]
 Overfull \hbox (53.13647pt too wide) in paragraph at lines 448--475
 [][] 
  []
@@ -339,10 +330,10 @@ Overfull \hbox (3.86786pt too wide) in paragraph at lines 479--480
  [] 
  []
 
-[14 <C:/Users/456388.NET/OneDrive/Paper to Publish/new plan with yusuf/Sohag-Pr
-oject/Article/Images/drawing4_1.jpg>] [15] [16] [17] [18]
-("C:\Users\456388.NET\OneDrive\Paper to Publish\new plan with yusuf\Sohag-Proje
-ct\Article\Article.bbl"
+[14 <C:/Sohag github/NewProject/Huffman Code with unequal letter cost and optim
+isation/Images/drawing4_1.jpg>] [15] [16] [17] [18]
+("C:\Sohag github\NewProject\Huffman Code with unequal letter cost and optimisa
+tion\Article.bbl"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
@@ -358,35 +349,35 @@ Underfull \hbox (badness 6157) in paragraph at lines 64--68
  []
 
 [20]) [21]
-("C:\Users\456388.NET\OneDrive\Paper to Publish\new plan with yusuf\Sohag-Proje
-ct\Article\Article.aux") ) 
+("C:\Sohag github\NewProject\Huffman Code with unequal letter cost and optimisa
+tion\Article.aux") ) 
 Here is how much of TeX's memory you used:
  3616 strings out of 493921
- 46836 string characters out of 3147267
- 123730 words of memory out of 3000000
+ 46352 string characters out of 3147280
+ 123739 words of memory out of 3000000
  6848 multiletter control sequences out of 15000+200000
  15313 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,13n,30p,2451b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on Article.pdf (21 pages, 615059 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/symbols/msam10.pfb>
+Output written on Article.pdf (21 pages, 615066 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
