@@ -91,7 +91,9 @@
 
 \begin{abstract}
 %% Text of abstract
-
+Recently the power consumption identified as one of the most pressing challenges of data transmission. Though a considerable reduction of size of data is obtained by Huffman code and several methods have been proposed to improve the data compression rate. These methods improves only the total number of bits without consideration of transmission cost. In this paper, we propose a new approach to reduce the power consumption, by applying genetic algorithm for minimising the total number of switches, either inter- or intra-switch. 
+The approach starts it operation by generating a set of trees considered as initial population for the genetic algorithm, each one of these trees represent a set of codewords (solution), after that the genetic operators such as selection, crossover and mutation will be applied to the initial population in order to evolute the quality of the solutions. The amount of power consumption is proportional to the total number of switches on the whole sequence. 
+The performance of the approach is evaluated by applying it to compress some standard biological datasets. The experiments yield that the proposed approach improves the power consumption rate considerably comparing with classic Huffman code.
 \end{abstract}
 
 \begin{keyword}
@@ -126,9 +128,6 @@ Section 2 presents the background study of the
 relationship of switching activity with power consumption, the relation of switching with Huffman code and the issues in biological data transmission. The proposed approach is described in Section 3. Experimental results and
 discussion are presented in Section 4 . Finally,
 concluding remarks are presented in Section 5. 
-
-
-
 \section{Background}
 \subsection{Huffman Coding}
 \subsection{Power consumption}
@@ -267,8 +266,8 @@ Genome 9&17.66 &10.04&43.14\\\hline
 Genome 10& 18.14 &9.89& 45.47 \\\hline
 Genome 11&19.63&11.48&41.51 \\\hline
 Genome 12& 17.59&11.86&32.57 \\\hline
-Genome 13& &&\\\hline
-Genome 14& && \\\hline
+Genome 13& 17.39&10.93&\\\hline
+Genome 14&18.53 &11.64& \\\hline
 Genome 15& && \\\hline
 Genome 16&&& \\\hline
 Genome 17& && \\\hline
