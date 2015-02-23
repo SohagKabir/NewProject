@@ -132,7 +132,7 @@ concluding remarks are presented in Section 5.
 \subsection{Huffman Coding}
 \subsection{Power consumption}
 \subsection{Issues in Biological data transmission}
-The size of biological data base increase with an expanding rate and it doesn't stop for increasing. In the last decade the use of biological data history increase which evolve a high request to data from this high volume biological data base. The exponential growth of these databases become a big problem to all biological data processing methods. Data compression methods is the most used methods to evolve the reduce the cost of treatment of high volume data bases.  The main objective of data compression methods is minimising the number of bits in the data representation. Authors in [] proposed a new approach to genomic data compression based in suffix and common substring and code the difference with Huffman code. In [16], authors propose a general scheme for coding only the difference between the target genome and the referential one, the coding method used is Huffman. Recent work on data compression for biological data have been proposed to deal with transmission of genomic data as an email attachment [][][]. Cost of data transmission is based on two point, firstly the size of the data which has been improved considerably in the recent year with the improvement of Huffman code. Secondly, is the number of switches on the generated codes. The power consumption increase linear with the number of switches.
+The size of biological data base increase with an expanding rate and it doesn't stop for increasing . In the last decade the use of biological data history increase which evolve a high request to data from this high volume biological data base []. The exponential growth of these databases become a big problem to all biological data processing methods. Data compression methods is the most used methods to evolve the reduce the cost of treatment of high volume data bases.  The main objective of data compression methods is minimising the number of bits in the data representation. Authors in [] proposed a new approach to genomic data compression based in suffix and common substring and code the difference with Huffman code. In [16], authors propose a general scheme for coding only the difference between the target genome and the referential one, the coding method used is Huffman. Recent work on data compression for biological data have been proposed to deal with transmission of genomic data as an email attachment [][][]. Cost of data transmission is based on two point, firstly the size of the data which has been improved considerably in the recent year with the improvement of Huffman code. Secondly, is the number of switches on the generated codes. The power consumption increase linear with the number of switches.
 \section{GA-SO : Genetic algorithm for Switches Optimising}
 Genetic algorithm (GA) is one the of the most popular bio-inspired meta-heuristic algorithm inspired from the natural evolution of species []. It is a  population based algorithm starts with the generation of a random initial population. The population contain a set of feasible solutions called individuals, that are usually far from the optimal. The GA optimisation process uses a set of natural genetic operators such as selection, crossover and mutation to converge to the optimal solution.
 \subsection{Preparing data and population generation}
@@ -144,7 +144,7 @@ The main operator of the GA is the crossover, allows to construct new solutions 
 \subsection{Mutation}
 The mutation operator changes the positions of two leaf nodes of the generated children (result of the crossover); this introduce the diversity in the search process, this diversification strategy allow the algorithm do conference to the global optimum. The algorithm for this operator goes through the leaf nodes and change the position of two leaf nodes from a parent to another and selects the ones to change according to a fixed mutation rate (see fig.1).
 \subsection{Population update}
-The crossover operation aims to generate new solutions from the current solution to built the second generation of the population. Furthermore, the mutation provide the diversity on the search space solution by changing the position of  nodes on the same tree. After these two operations, the next step of the genetic algorithm is two to breed the new population. Firstly the new solutions (children) are added to the current population, after that the population is ranked by fitness. The algorithm remove the worst solutions until the initial size of the population is achieved. The algorithm genetic repeat these operators until the stopped criteria is achieved, in this algorithm the stopped criteria is when the objective function (number of switches) stop decreasing.
+The crossover operation aims to generate new solutions from the current solution to built the second generation of the population. Furthermore, the mutation provide the diversity on the search space solution by changing the position of  nodes on the same tree. After these two operations, the next step of the genetic algorithm is two to breed the new population (see fig.2). Firstly the new solutions (children) are added to the current population, after that the population is ranked by fitness. The algorithm remove the worst solutions until the initial size of the population is achieved. The algorithm genetic repeat these operators until the stopped criteria is achieved, in this algorithm the stopped criteria is when the objective function (number of switches) stop decreasing.
 \begin{algorithm}[!btph]
 \caption{Switches optimising Huffman codes}
 \label{alg1}
@@ -171,8 +171,18 @@ The crossover operation aims to generate new solutions from the current solution
 \end{center}
 \label{Fig1}
 \end{figure}
+\begin{figure}[tbph]
+\begin{center}
+\includegraphics[width=350pt,height=170pt]{Images/Drawing3.jpg}
+\caption{Population update for genetic algorithm}
+\end{center}
+\label{Fig2}
+\end{figure}
+
 
 \section{Experiments and Comparison}
+
+
 
 The effectiveness of the approach has been evaluated with different real genomic biological data, these genomes were downloaded from a recent version of The National Center for Biotechnology Information (NCBI) available on $(http://www.ncbi.nlm.nih.gov)$ \cite{pruitt2009ncbi}. We focused on the sequences alone, ignoring any header and any other exogenous information. In table 3, the different data sets are described with the size  of each of them in megabytes (MB) and the references on the biological data bank.
 
@@ -266,18 +276,21 @@ Genome 9&17.66 &10.04&43.14\\\hline
 Genome 10& 18.14 &9.89& 45.47 \\\hline
 Genome 11&19.63&11.48&41.51 \\\hline
 Genome 12& 17.59&11.86&32.57 \\\hline
-Genome 13& 17.39&10.93&\\\hline
-Genome 14&18.53 &11.64& \\\hline
-Genome 15& && \\\hline
-Genome 16&&& \\\hline
-Genome 17& && \\\hline
-Genome 18& && \\\hline
-
+Genome 13& 17.39&10.93&37.14\\\hline
+Genome 14&18.53 &11.64&37.18 \\\hline
+Genome 15&78.19 &50.60&35.28 \\\hline
+Genome 16& & & \\\hline
+Genome 17& & & \\\hline
+Genome 18& & & \\\hline
 %\bottomrule
 \end{tabular}
 %\end{center}
 \end{table}
 \section{Conclusion}
+In this paper we described how the genetic algorithm can be used to improve the power consumption in biological data transmission. The advantage of the proposed approach is that it minimise considerably the number of switches with affect directly the power consumption for data transmission. In this paper, we identified genetic
+algorithm as a potential method to optimise the total number of inter- and intra-switches. The Genetic algorithm start by generating a set of feasible solutions (trees), each one contain a set of codewords. After that, the approach uses the natural genetic operators to improve the quality if the solutions by generating new solution. the evolution of the population is controlled by the number of switches both inter- and intra-switches. 
+The proposed approach is applied to biological data sets with different sizes from small genome to a human chromosome. The approach has been compared with the classic Huffman code. The results show that
+the proposed approach improves the power consumption rate considerably. The experiment shows that the proposed approach improves Huffman code in the best case with $best$,  $average$ in the average case, and $worst$ case. For the future we hope to improve the allocation of codewords to different frequencies in orderer to improve the total number of switches.
 
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
