@@ -1,0 +1,151 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Redmond09}
+W.~A. Redmond, International morse code, Microsoft Encarta 2009 [DVD] (1964)
+  275--278.
+
+\bibitem{Gr03}
+P.~D. Grunwald, P.~M.~B. Vitany, Kolmogorov complexity and information theory:
+  With an interpretation in terms of questions and answers, Journal of Logic,
+  Language and Information 12 (2003) 497--529.
+
+\bibitem{Karp61}
+R.~Karp, Minimum-redundancy coding for the discrete noiseless channel, IRE
+  Transactions on Information Theory 7~(1) (1961) 27--38.
+
+\bibitem{Gil95}
+E.~N. Gilbert, Coding with digits of unequal costs, IEEE Transactions on
+  Information Theory 41~(2) (1995) 596--600.
+
+\bibitem{Kar62}
+R.~M. Krause, Channels which transmit letters of unequal duration, Information
+  Control 5~(1) (1962) 13--24.
+
+\bibitem{Varn71}
+B.~Varn, Optimal variable length codes -{Arbitrary symbol cost and equal code
+  word probability}, Information and Control 19~(4) (1971) 289--301.
+
+\bibitem{AltMel80}
+D.~Altenkamp, K.~Mehlhorn, Codes: Unequal probabilities, unequal letter costs,
+  Journal of the Association for Computing Machinery 27~(3) (1980) 412--427.
+
+\bibitem{perl1975}
+Y.~Perl, M.~R. Garey, S.~Even, Efficient generation of optimal prefix code:
+  Equiprobable words using unequal cost letters, Journal of the ACM (JACM)
+  22~(2) (1975) 202--214.
+
+\bibitem{Huff51}
+D.~Huffman, A method for the construction of minimum-redundancy codes,
+  Proceedings of the Institute of Radio Engineers 40~(9) (1952) 1098--1101.
+\newblock \href {http://dx.doi.org/10.1109/JRPROC.1952.273898}
+  {\path{doi:10.1109/JRPROC.1952.273898}}.
+
+\bibitem{Kab14}
+S.~Kabir, T.~Azad, A.~S. M.~A. Alam, M.~Kaykobad, Effects of unequal bit costs
+  on classical huffman codes, in: 17th International Conference on Computer and
+  Information Technology, 2014, pp. 96--101.
+
+\bibitem{Doug08}
+D.~Howe, M.~Costanzo, P.~Fey, T.~Gojobori, L.~Hannick, W.~Hide, D.~P. Hill,
+  R.~Kania, M.~Schaeffer, S.~S. Pierre, S.~Twigger, O.~White, S.~Y. Rhee, Big
+  data: The future of biocuration, Nature 455 (2008) 47--50.
+
+\bibitem{val10}
+F.~Valentin, S.~Squizzato, M.~Goujon, H.~McWilliam, J.~Paern, R.~Lopez, Fast
+  and efficient searching of biological data resources—using eb-eye,
+  Briefings in bioinformatics 11~(4) (2010) 375--384.
+
+\bibitem{chr09}
+C.~Scott, L.~Yiming, L.~Chen, X.~Xiaohui, Human genomes as email attachments,
+  Bioinformatics 25~(2) (2009) 274--275.
+\newblock \href {http://dx.doi.org/10.1093/bioinformatics/btn582}
+  {\path{doi:10.1093/bioinformatics/btn582}}.
+
+\bibitem{che03}
+R.~Chenna, H.~Sugawara, T.~Koike, R.~Lopez, T.~J. Gibson, D.~G. Higgins, J.~D.
+  Thompson, Multiple sequence alignment with the clustal series of programs,
+  Nucleic acids research 31~(13) (2003) 3497--3500.
+
+\bibitem{cha14}
+C.~Tzu-Hao, W.~Shih-Lin, W.~Wei-Jen, H.~Jorng-Tzong, C.~Cheng-Wei, A novel
+  approach for discovering condition-specific correlations of gene expressions
+  within biological pathways by using cloud computing technology, BioMed
+  research international 2014.
+
+\bibitem{bra09}
+M.~C. Brandon, D.~C. Wallace, P.~Baldi, Data structures and compression
+  algorithms for genomic sequence data, Bioinformatics 25~(14) (2009)
+  1731--1738.
+
+\bibitem{Golomb96}
+S.~W. Golomb, Run-length encodings, IEEE Transactions on Information Theory
+  12~(3) (1996) 399--401.
+
+\bibitem{Elias75}
+P.~Elias, Universal codeword sets and representations of the integers, IEEE
+  Transactions on Information Theory 21~(2) (1975) 194--203.
+\newblock \href {http://dx.doi.org/10.1109/TIT.1975.1055349}
+  {\path{doi:10.1109/TIT.1975.1055349}}.
+
+\bibitem{wan11}
+C.~Wang, D.~Zhang, A novel compression tool for efficient storage of genome
+  resequencing data, Nucleic acids research 39~(7) (2011) e45--e45.
+
+\bibitem{Amst86}
+J.~Amsterdam, Data compression with huffman coding, BYTE 11~(5) (1986) 98--108.
+
+\bibitem{Kay03}
+M.~A. Mannan, M.~Kaykobad, Block huffman coding, Computers and Mathematics with
+  Applications 46~(10-11) (2003) 1581--1587.
+
+\bibitem{Gol1996}
+M.~Golin, N.~Young, {Prefix codes: Equiprobable words, unequal letter costs},
+  {SIAM Journal on Compting} {25}~({6}) ({1996}) {1281--1292}.
+
+\bibitem{Gol02}
+M.~J. Golin, C.~Kenyon, N.~E. Young, Huffman coding with unequal letter costs,
+  in: ACM Symposium on Theory of Computing, 2002, pp. 785--791.
+
+\bibitem{Gol2002}
+P.~Bradford, M.~Golin, L.~Larmore, W.~Rytter, {Optimal prefix-free codes for
+  unequal letter costs: Dynamic programming with the Monge property}, {Journal
+  of Algorithms} {42}~({2}) ({2002}) {277--303}.
+
+\bibitem{Gol12}
+M.~J. Golin, C.~Mathieu, N.~E. Young, {Huffman Coding with Letter Costs: A
+  Linear-Time Approximation Scheme}, {SIAM Journal on Computing} {41}~({3})
+  ({2012}) {684--713}.
+
+\bibitem{Harvey00}
+H.~Lodish, A.~Berk, S.~L. Zipursky, P.~Matsudaira, D.~Baltimore, J.~Darnell,
+  Molecular Cell Biology, 4th Edition, W.H.Freeman and Co Ltd, 1999.
+
+\bibitem{golin98}
+M.~J. Golin, G.~Rote, A dynamic programming algorithm for constructing optimal
+  prefix-free codes with unequal letter costs, IEEE Transactions on Information
+  Theory 44~(5) (1998) 1770--1781.
+
+\bibitem{gen1}
+M.~Mitchell, An introduction to genetic algorithms, MIT press, 1998.
+
+\bibitem{bli95}
+T.~Blickle, L.~Thiele, A comparison of selection schemes used in genetic
+  algorithms (1995).
+
+\bibitem{osa14}
+E.~Osaba, R.~Carballedo, F.~Diaz, E.~Onieva, I.~de~la Iglesia, A.~Perallos,
+  Crossover versus mutation: A comparative analysis of the evolutionary
+  strategy of genetic algorithms applied to combinatorial optimization
+  problems, The Scientific World Journal 2014.
+
+\bibitem{pruitt2009ncbi}
+K.~D. Pruitt, T.~Tatusova, W.~Klimke, D.~R. Maglott, N{CBI} reference
+  sequences: current status, policy and new initiatives, Nucleic acids research
+  37~(suppl 1) (2009) D32--D36.
+
+\end{thebibliography}
