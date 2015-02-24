@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -57,5 +57,51 @@ C.-Y. Chen, Y.-T. Pai, S.-J. Ruan, Low power huffman coding for high
   Information Technology (ICHIT), 2006, pp. 71--77.
 \newblock \href {http://dx.doi.org/10.1109/ICHIT.2006.253467}
   {\path{doi:10.1109/ICHIT.2006.253467}}.
+
+\bibitem{Doug08}
+D.~Howe, M.~Costanzo, P.~Fey, T.~Gojobori, L.~Hannick, W.~Hide, D.~P. Hill,
+  R.~Kania, M.~Schaeffer, S.~S. Pierre, S.~Twigger, O.~White, S.~Y. Rhee, Big
+  data: The future of biocuration, Nature 455 (2008) 47--50.
+
+\bibitem{bra09}
+M.~C. Brandon, D.~C. Wallace, P.~Baldi, Data structures and compression
+  algorithms for genomic sequence data, Bioinformatics 25~(14) (2009)
+  1731--1738.
+
+\bibitem{chr09}
+C.~Scott, L.~Yiming, L.~Chen, X.~Xiaohui, Human genomes as email attachments,
+  Bioinformatics 25~(2) (2009) 274--275.
+\newblock \href {http://dx.doi.org/10.1093/bioinformatics/btn582}
+  {\path{doi:10.1093/bioinformatics/btn582}}.
+
+\bibitem{wan11}
+C.~Wang, D.~Zhang, A novel compression tool for efficient storage of genome
+  resequencing data, Nucleic acids research 39~(7) (2011) e45--e45.
+
+\bibitem{gen1}
+M.~Mitchell, An introduction to genetic algorithms, MIT press, 1998.
+
+\bibitem{Harvey00}
+H.~Lodish, A.~Berk, S.~L. Zipursky, P.~Matsudaira, D.~Baltimore, J.~Darnell,
+  Molecular Cell Biology, 4th Edition, W.H.Freeman and Co Ltd, 1999.
+
+\bibitem{bli95}
+T.~Blickle, L.~Thiele, A comparison of selection schemes used in genetic
+  algorithms (1995).
+
+\bibitem{osa14}
+E.~Osaba, R.~Carballedo, F.~Diaz, E.~Onieva, I.~de~la Iglesia, A.~Perallos,
+  Crossover versus mutation: A comparative analysis of the evolutionary
+  strategy of genetic algorithms applied to combinatorial optimization
+  problems, The Scientific World Journal 2014.
+
+\bibitem{muhlenbein1992genetic}
+H.~M{\"u}hlenbein, How genetic algorithms really work: Mutation and
+  hillclimbing., in: PPSN, Vol.~92, 1992, pp. 15--25.
+
+\bibitem{pruitt2009ncbi}
+K.~D. Pruitt, T.~Tatusova, W.~Klimke, D.~R. Maglott, N{CBI} reference
+  sequences: current status, policy and new initiatives, Nucleic acids research
+  37~(suppl 1) (2009) D32--D36.
 
 \end{thebibliography}
