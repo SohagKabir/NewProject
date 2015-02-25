@@ -78,7 +78,7 @@
 %% \address{Address\fnref{label3}}
 %% \fntext[label3]{}
 
-\title{Reducing Power Consumption in Huffman Coding}
+\title{Switching Optimisation in Huffman Code for Power Efficient   Data Transmission }
 
 %% use optional labels to link authors explicitly to addresses:
 %% \author[label1,label2]{}
@@ -90,10 +90,10 @@
 \address{}
 
 \begin{abstract}
-%% Text of abstract
-Recently the power consumption identified as one of the most pressing challenges of data transmission. Though a considerable reduction of size of data is obtained by Huffman code and several methods have been proposed to improve the data compression rate. These methods improves only the total number of bits without consideration of transmission cost. In this paper, we propose a new approach to reduce the power consumption, by applying genetic algorithm for minimising the total number of switches, either inter- or intra-switch. 
-The approach starts it operation by generating a set of trees considered as initial population for the genetic algorithm, each one of these trees represent a set of codewords (solution), after that the genetic operators such as selection, crossover and mutation will be applied to the initial population in order to evolute the quality of the solutions. The amount of power consumption is proportional to the total number of switches on the whole sequence. 
-The performance of the approach is evaluated by applying it to compress some standard biological datasets. The experiments yield that the proposed approach improves the power consumption rate considerably comparing with classic Huffman code.
+
+Reliability of low powered devices is highly dependent on their power efficiency. In digital communication, a significant amount of power is dissipated in data transmission. Different technologies have been emerged to address the issues of power consumption. In CMOS technology, dynamic power accounts for 70\%-90\% of the total power dissipation and it depends on the representation of the data  and increases linearly with switching activities (transition from logic level High to Low and vice versa). Therefore, an efficient representation of data can minimise power consumption by reducing switching activities.  In this paper, we have extended the Huffman code, a widely used data compression technique, by using genetic algorithm to reduce switching activities in the transmitted message. %In Recently the power consumption identified as one of the most pressing challenges of data transmission. Though a considerable reduction of size of data is obtained by Huffman code and several methods have been proposed to improve the data compression rate. These methods improves only the total number of bits without consideration of transmission cost. In this paper, we propose a new approach to reduce the power consumption, by applying genetic algorithm for minimising the total number of switches, either inter- or intra-switch. 
+The main objective of the proposed approach is to minimise the switching activities in the codeword of each symbol as well as the switching activities between the symbols.  The approach starts its operation by generating an initial population, a set of Huffman trees, for all the input symbols. Afterwards, the genetic operators such as selection, crossover and mutation are applied to the initial population to improve the quality of the solutions. %The amount of power consumption is proportional to the total number of switches on the whole sequence. 
+The performance of the approach is evaluated by applying it to a set of real biological datasets. The experiments yield that the proposed approach reduces the switching activity by $45.47\%$ in the best case, by $36.33\%$ in the average case and by $16.42\%$ in the worst case. 
 \end{abstract}
 
 \begin{keyword}
@@ -129,8 +129,10 @@ relationship of switching activity with power consumption, the relation of switc
 discussion are presented in Section 4 . Finally,
 concluding remarks are presented in Section 5. 
 \section{Background}
-\subsection{Huffman Coding}
-\subsection{Power consumption}
+\subsection{Effect of Switching in Power Consumption}
+\subsection{Huffman Code and Its Relationship with Switching Activity}
+%\subsubsection{Relationship between switching and Huffman Code}
+
 \subsection{Issues in Biological data transmission}
 The size of biological data base increase with an expanding rate and it doesn't stop for increasing. In the last decade the use of biological data history increase which evolve a high request to data from this high volume biological data base~\cite{Doug08}. The exponential growth of these databases become a big problem to all biological data processing methods~\cite{Doug08}. Data compression methods is the most used methods to evolve the reduce the cost of treatment of high volume data bases. The main objective of data compression methods is minimising the number of bits in the data representation. Authors in~\cite{bra09} proposed a new approach to genomic data compression based in suffix and common substring and code the difference with Huffman code. In~\cite{chr09}, authors propose a general scheme for coding only the difference between the target genome and the referential one, the coding method used is Huffman. Recent work on data compression for biological data have been proposed to deal with transmission of genomic data as an email attachment~\cite{wan11}. Cost of data transmission is based on two point, firstly the size of the data which has been improved considerably in the recent year with the improvement of Huffman code. Secondly, is the number of switches on the generated codes. The power consumption increase linear with the number of switches.
 \section{GA-SO : Genetic algorithm for Switches Optimising}
