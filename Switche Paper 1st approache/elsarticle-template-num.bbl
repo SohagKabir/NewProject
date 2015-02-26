@@ -58,6 +58,19 @@ C.-Y. Chen, Y.-T. Pai, S.-J. Ruan, Low power huffman coding for high
 \newblock \href {http://dx.doi.org/10.1109/ICHIT.2006.253467}
   {\path{doi:10.1109/ICHIT.2006.253467}}.
 
+\bibitem{Weste88}
+N.~H.~E. Weste, K.~Eshraghian, Principles of CMOS VLSI design: a systems
+  perspective, Addison-Wesley, 1988.
+
+\bibitem{pedram1996}
+M.~Pedram, Power minimization in {IC} design: principles and applications, ACM
+  Transactions on Design Automation of Electronic Systems (TODAES) 1~(1) (1996)
+  3--56.
+
+\bibitem{Cormen2001}
+T.~H. Cormen, C.~Stein, R.~L. Rivest, C.~E. Leiserson, Introduction to
+  Algorithms, 2nd Edition, McGraw-Hill Higher Education, 2001.
+
 \bibitem{Doug08}
 D.~Howe, M.~Costanzo, P.~Fey, T.~Gojobori, L.~Hannick, W.~Hide, D.~P. Hill,
   R.~Kania, M.~Schaeffer, S.~S. Pierre, S.~Twigger, O.~White, S.~Y. Rhee, Big

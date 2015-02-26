@@ -44,6 +44,10 @@
 \usepackage[noend]{algpseudocode}
 \usepackage{algcompatible}
 \usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{algcompatible}
 %% The amsthm package provides extended theorem environments
 %% \usepackage{amsthm}
 
@@ -130,8 +134,44 @@ discussion are presented in Section 4 . Finally,
 concluding remarks are presented in Section 5. 
 \section{Background}
 \subsection{Effect of Switching in Power Consumption}
+CMOS is the most widely used technology implemented in VLSI chips because of their power efficiency. Power dissipation in CMOS circuits has three different components: dynamic, static, and leakage \cite{Weste88}.
+\begin{equation*}
+P_{avg} = P_{dynamic}+P_{static}+P_{leakge} ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{equation*}
+\begin{equation}
+~~~~~~~~~~~~= 0.5 \times C_{L} \times V_{dd}^{2}\times E(sw)\times f_{clk} + I_{sc} \times V_{dd}+I_{leakage} \times V_{dd}
+ \end{equation}
+ where\\
+  $C_{L}$ is the load capacitance, \\
+  $V_{dd}$ is power supply,\\
+  $E(sw)$ is average transition (switching) number per clock cycle ,\\
+  $f_{clk}$ is the clock frequency,\\
+  $ I_{sc}$ is the short circuit current, and\\
+  $ I_{leakage}$ is the leakage current.\\
+Out of the three components, the dynamic power dissipation is the dominant and it counts for 70\%-90\% of the total power consumption\cite{pedram1996}. Therefore, optimisation of dynamic power consumption is considered in this paper. In CMOS circuit, dynamic power consumption arises when the load capacitance ($C_{L}$) is charged to address a transition from low to the high voltage level.  The parameters $C_{L}$, $V_{dd}$, and $f_{clk}$ in dynamic power dissipation are primarily determined by the circuit layout and the fabrication technology. However, amount of switching, $E(sw)$ completely depends on the digital representation of the data. As the dynamic power dissipation is proportional  to the average number of switching, thus a reduction in the total switching number will eventually results in the reduction of the dynamic power consumption. Therefore, in this paper, we focus on reducing total amount of switching in Huffman code to improve power efficiency of digital data processing.
+%In this paper, by switching we mean a transition from `0' to `1' or `1' to `0' in a binary sequence. 
 \subsection{Huffman Code and Its Relationship with Switching Activity}
 %\subsubsection{Relationship between switching and Huffman Code}
+In computer science and information theory, Huffman code is an entropy encoding algorithm used for lossless data compression. The classical Huffman code requires to pass the input data two times to complete the encoding operation. In the first pass, it reads the whole stream to determine the occurrence frequencies of distinct symbols. After that, symbols along with their frequencies are used to generate a binary tree known as Huffman tree. The process of Huffman tree generation is shown in algorithm 1 \cite{Cormen2001}.
+ 
+\begin{algorithm}[!thpb]
+\label{alg1}
+\caption{Huffman(C)}
+\begin{algorithmic}[1]
+\State $n \leftarrow |C|$
+\State $Q \leftarrow C$
+\FOR {$i = 1~to~n-1$}
+\State $allocate~a~new~node~z$
+\State $left[z]$ $\leftarrow$ $x$ $\leftarrow$ $EXTRACT\_MIN (Q)$
+\State $right[z]$ $\leftarrow$ $y$ $\leftarrow$ $EXTRACT\_MIN (Q)$
+\State $f[z]$ $\leftarrow$ $f[x] + f[y]$
+\State $INSERT (Q~,~z)$
+\ENDFOR
+\State \textbf{$retur$n} $EXTRACT-MIN (Q)$
+\end{algorithmic}
+\end{algorithm}
+In the algorithm, C is the set of n distinct symbols, and each symbol $ c\in C$ has a frequency denoted as f[c]. The algorithm starts its operation with a set of $|C|$  leaf nodes where each node corresponds to a distinct symbol. After that, a sequence of $|C|-1$ merging operation is performed to obtain the final tree. The merging is done by extracting two least frequent symbols from the minimum priority queue, $Q$, and creating and inserting a new node (parent) to the queue for that two symbols. The frequency of the new  node is calculated as the sum of the frequency of its child nodes.  The resultant tree ensures the optimal encoding of symbols to obtain maximal compression performance. The tree is traversed from the root to the leaf nodes to obtain the unique codeword (binary string) for different symbols. Once the codewords are obtained, in the second pass, the Huffman algorithm encodes the symbols of the input message with the codewords, thus reduce the size of the whole message.
+For a set of symbols more than one Huffman tree is possible, i.e., optimal solution can be obtained from different structure of the tree. If the structure of the tree is changed, the codewords for the symbols will also change. The switching activity depends on the structure of the codewords. For example, if a symbol is assigned a codewrod `000' then there is no switching, on the other hand, if the codeword `010' is assigned to a symbol the transmission of this symbol requires 2 switching activity.
 
 \subsection{Issues in Biological data transmission}
 The size of biological data base increase with an expanding rate and it doesn't stop for increasing. In the last decade the use of biological data history increase which evolve a high request to data from this high volume biological data base~\cite{Doug08}. The exponential growth of these databases become a big problem to all biological data processing methods~\cite{Doug08}. Data compression methods is the most used methods to evolve the reduce the cost of treatment of high volume data bases. The main objective of data compression methods is minimising the number of bits in the data representation. Authors in~\cite{bra09} proposed a new approach to genomic data compression based in suffix and common substring and code the difference with Huffman code. In~\cite{chr09}, authors propose a general scheme for coding only the difference between the target genome and the referential one, the coding method used is Huffman. Recent work on data compression for biological data have been proposed to deal with transmission of genomic data as an email attachment~\cite{wan11}. Cost of data transmission is based on two point, firstly the size of the data which has been improved considerably in the recent year with the improvement of Huffman code. Secondly, is the number of switches on the generated codes. The power consumption increase linear with the number of switches.
