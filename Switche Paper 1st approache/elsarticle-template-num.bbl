@@ -91,6 +91,19 @@ C.~Scott, L.~Yiming, L.~Chen, X.~Xiaohui, Human genomes as email attachments,
 C.~Wang, D.~Zhang, A novel compression tool for efficient storage of genome
   resequencing data, Nucleic acids research 39~(7) (2011) e45--e45.
 
+\bibitem{chan1991macro}
+H.~Chan, P.~Mazumder, K.~Shahookar, Macro-cell and module placement by genetic
+  adaptive search with bitmap-represented chromosome, Integration, the VLSI
+  journal 12~(1) (1991) 49--77.
+
+\bibitem{bright1996genetic}
+M.~Bright, T.~Arslan, Genetic framework for the high level optimisation of low
+  power vlsi dsp systems, Electronics Letters 32~(13) (1996) 1150--1151.
+
+\bibitem{cohoon1987genetic}
+J.~P. Cohoon, W.~D. Paris, Genetic placement, Computer-Aided Design of
+  Integrated Circuits and Systems, IEEE Transactions on 6~(6) (1987) 956--964.
+
 \bibitem{gen1}
 M.~Mitchell, An introduction to genetic algorithms, MIT press, 1998.
 
