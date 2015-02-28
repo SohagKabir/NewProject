@@ -97,7 +97,7 @@
 
 Reliability of low powered devices is highly dependent on their power efficiency. In digital communication, a significant amount of power is dissipated in data transmission. Different technologies have been emerged to address the issues of power consumption. In CMOS technology, dynamic power accounts for 70\%-90\% of the total power dissipation and it depends on the representation of the data  and increases linearly with switching activities (transition from logic level High to Low and vice versa). Therefore, an efficient representation of data can minimise power consumption by reducing switching activities.  In this paper, we have extended the Huffman code, a widely used data compression technique, by using genetic algorithm to reduce switching activities in the transmitted message. %In Recently the power consumption identified as one of the most pressing challenges of data transmission. Though a considerable reduction of size of data is obtained by Huffman code and several methods have been proposed to improve the data compression rate. These methods improves only the total number of bits without consideration of transmission cost. In this paper, we propose a new approach to reduce the power consumption, by applying genetic algorithm for minimising the total number of switches, either inter- or intra-switch. 
 The main objective of the proposed approach is to minimise the switching activities in the codeword of each symbol as well as the switching activities between the symbols.  The approach starts its operation by generating an initial population, a set of Huffman trees, for all the input symbols. Afterwards, the genetic operators such as selection, crossover and mutation are applied to the initial population to improve the quality of the solutions. %The amount of power consumption is proportional to the total number of switches on the whole sequence. 
-The performance of the approach is evaluated by applying it to a set of real biological datasets. The experiments yield that the proposed approach reduces the switching activity by $45.47\%$ in the best case, by $36.33\%$ in the average case and by $16.42\%$ in the worst case. 
+The performance of the approach is evaluated by applying it to a set of real biological datasets. The experiments yield that the proposed approach reduces the switching activity by $45.47\%$ in the best case, by $36.45\%$ in the average case, and by $16.42\%$ in the worst case. 
 \end{abstract}
 
 \begin{keyword}
@@ -183,11 +183,11 @@ The main objective of the approach is to minimise the total number of switching 
 Genetic algorithm (GA) has widely been applied to solve a range of combinatorial problem in complex VLSI design~\cite{chan1991macro,bright1996genetic,cohoon1987genetic}. For this reason, the GA is identified as a potential solution to the above mentioned problem. GA is one the of the most popular bio-inspired meta-heuristic algorithm inspired by the natural evolution of species~\cite{gen1}. It is a population based algorithm starts with the generation of a random initial population. The population contain a set of feasible solutions called individuals, that are usually far from the optimal. The GA optimisation process uses a set of natural genetic operators such as selection, crossover and mutation to converge to the optimal solution. The whole process is shown in algorithm 2.
 \begin{algorithm}[!btph]
 \caption{Switches optimising Huffman codes}
-\label{alg1}
+\label{alg2}
 \begin{algorithmic}[1]
 \REQUIRE Textual representation of a Genome
-\ENSURE Low switches Huffman codes
-\STATE Generate triplet frequencies and adjacent matrix 
+\ENSURE Huffman codes with optimal number of switching
+\STATE Generate triplet frequencies and adjacency matrix 
 \STATE Generate the initial  population of trees
 \REPEAT 
 \STATE Select part of the population
@@ -195,8 +195,8 @@ Genetic algorithm (GA) has widely been applied to solve a range of combinatorial
 \STATE Mutate children
 \STATE Add children to population
 \STATE Rank by fitness
-\STATE Remove worst solutions until population limit
-\UNTIL{The switches number stop decreasing}
+\STATE Remove worst solutions until population limit reached
+\UNTIL{the switching number stop decreasing}
 %\algstore{myalg}
 \end{algorithmic}
 \end{algorithm}
@@ -228,31 +228,40 @@ Two parent trees are crossed to find two new child trees in the following way:\\
 \textbf{Step 1: }Select an internal node (a sub-tree) from each parent tree with equal number of nodes (the dashed selection in Fig. 1(a) and (b)). \\
 \textbf{Step 2:} Put the selected sub-tree of the first tree in the place of the selected sub-tree of the second tree and vice versa (see Fig. 1(c) and (d)).\\
 
-However, in each of the trees some symbols are repeated and some are missed, but number of repeated and missed symbols are equal. This is because we replace a sub-tree by other sub-tree without any modification. As a result each child tree contains a part from its parent tree and a part from the other tree. If the remaining part from the parent tree and the newly added part has one or more  symbols in common then these symbols will be repeated in the tree, on the other hand, the uncommon symbols between the newly added sub-tree and  the replaced sub-tree will be missed.  We solved this conflict by putting the missed symbols one by one in the place of the repeated symbol in the remaining part from the parent tree. That means, the newly added sub-tree is kept unchanged and all the replacements are done on the old part of the tree.
+However, in each of the trees, some symbols are repeated and some are missed, but number of repeated and missed symbols are equal. This is because, we replace a sub-tree by other sub-tree without any modification. As a result each new (child) tree contains a part from its parent tree and a part from the other tree. If the remaining part from the parent tree and the newly added part has one or more  symbols in common then these symbols will be repeated in the tree, on the other hand, the uncommon symbols between the newly added sub-tree and  the replaced sub-tree will be missed.  We solved this conflict by putting the missed symbols one by one in the place of the repeated symbol in the remaining part from the parent tree. That means, the newly added sub-tree is kept unchanged and all the replacements are done on the old part of the tree.
 
 \subsubsection{Mutation}
-The mutation operator changes the positions of two leaf nodes of the generated children (result of the crossover)~\cite{muhlenbein1992genetic}. It introduces the diversity in the search process, this diversification strategy allow the algorithm to converge to the optimal solution. The algorithm for this operator goes through the leaf nodes and change the positions of two leaf nodes from their current positions to another positions in the tree (see Fig.1(e) and (f)). The selection of the nodes to be mutated is done following a fixed mutation rate.
+The mutation operator changes the positions of two leaf nodes of the generated children (result of the crossover)~\cite{muhlenbein1992genetic}. It introduces the diversity in the search process, this diversification strategy allow the algorithm to converge to the optimal solution. The algorithm for this operator goes through the leaf nodes and change the positions of two leaf nodes from their current positions to another positions in the tree (see Fig.2(a) and (b)). The selection of the nodes to be mutated is done following a fixed mutation rate.
 
 \subsection{Population update}
-The crossover operation generates new solutions from the current solutions to build the second generation of the population. Furthermore, the mutation process provides the diversity in the search on the solution space by changing the position of the nodes in the same tree. After these two operations, the next step of the genetic algorithm is to breed the new population (see fig.2). Firstly, the new solutions (children) are added to the current population and ranked by fitness. The algorithm remove the worst solutions until the initial size of the population is achieved. The genetic algorithm  continuously repeats the selection, crossover, mutation, and population update operation until the stopping criteria is achieved. In the proposed approach the stopping criteria is when the objective function (number of switches) stop decreasing.
+The crossover operation generates new solutions from the current solutions to build the second generation of the population. Furthermore, the mutation process provides the diversity in the search on the solution space by changing the position of the nodes in the same tree. After these two operations, the next step of the genetic algorithm is to breed the new population (see Fig.3). Firstly, the new solutions (children) are added to the current population and ranked by fitness. The algorithm remove the worst solutions until the initial size of the population is achieved. The genetic algorithm  continuously repeats the selection, crossover, mutation, and population update operation until the stopping criteria is achieved. In the proposed approach the stopping criteria is when the objective function (number of switches) stop decreasing.
 \begin{figure}[tbph]
 \begin{center}
-\includegraphics[width=400pt,height=545pt]{Images/Drawing1-1.jpg}
-\caption{The Crossover operator}
+\includegraphics[width=380pt,height=500pt]{Images/figure1.jpg}
+\caption{The Crossover operation}
 \end{center}
 \label{Fig1}
 \end{figure}
+
+\begin{figure}[tbph]
+\begin{center}
+\includegraphics[scale=0.4]{Images/figure2.jpg}
+\caption{The Mutation operation}
+\end{center}
+\label{Fig2}
+\end{figure}
+
 \begin{figure}[tbph]
 \begin{center}
 \includegraphics[scale=0.7]{Images/Drawing_1.jpg}
 \caption{Population update for genetic algorithm}
 \end{center}
-\label{Fig2}
+\label{Fig3}
 \end{figure}
 
 
 \section{Experiments and Comparison}
-The approach has been evaluated with different real genomic biological data. Different genomes size have been used for the evaluation, from small genome to human chromosome in order to evaluate the efficiency of the approach.The datasets were downloaded as FASTA text file from a recent version of The National Center for Biotechnology Information (NCBI) available on $(http://www.ncbi.nlm.nih.gov)$ \cite{pruitt2009ncbi}. The used genomes are described in table 1, the size are given in Megabyte and the reference on the NCBI database.
+The proposed approach is used to reduce the total number of switching activities during data transmission. The approach optimises the total number of switching by  finding  the best arrangement of nodes by rearranging their positions in the codewords tree with the best allocation of these codewords to the different frequencies (triplets). It continues swapping between the individual population  until a balance is found between inter-switching and intra-switching. The effectiveness of the approach has been evaluated by applying is to compress different real genomic biological data. Different genomes size have been used for the evaluation, from small genome to large human chromosome. The datasets were downloaded as FASTA text file from a recent version of The National Center for Biotechnology Information (NCBI) available on $(http://www.ncbi.nlm.nih.gov)$ \cite{pruitt2009ncbi}. The used genomes are described in table 1 with their reference in the NCBI database, the size of all the files are given in Megabytes (MBs).
 
 \begin{table}[!thpb]
 
@@ -330,7 +339,7 @@ Genome 7& Bradyrhizobium WSM471&  7.42 &NZ\_CM001442\\\hline
 
 \begin{tabular}{c  c c  c c  c c}
 \hline
- Datasets & \begin{tabular}{@{}c@{}}Switches in the\\ Huffman Code\end{tabular} & \begin{tabular}{@{}c@{}}Switches in the\\ proposed approach\end{tabular}& Improvement (\%) \\\hline
+ Datasets & \begin{tabular}{@{}c@{}}Switches in the Huffman\\  Code (in millions)\end{tabular} & \begin{tabular}{@{}c@{}}Switches in the proposed\\  approach (in millions)\end{tabular}& Improvement (\%) \\\hline
 Genome 1& 18.16 & 10.05 & 44.65 \\\hline
 Genome 2& 24.66 &  15.63 & 36.61 \\\hline
 Genome 3&18.46 &  10.66&  42.25\\\hline
@@ -353,7 +362,11 @@ Genome 18& 243.70& 149.80&38.53 \\\hline
 \end{tabular}
 %\end{center}
 \end{table}
-Table 2 presents thee results obtained by the proposed approach and classical Huffman code. The results are presented with the total number of switches and the improvement rate. The results shows that the proposed approach optimise the power consumption of the whole genome by reducing the total number of inter- and intra-switches. In the best case the proposed approach improves power consumption over classical Huffman code by $x$, in the worst case by $x$, and on an average by $x$. The proposed approach optimise the total number of switches by swapping finding the best arrangement of nodes on the codewords tree with the best allocation of these codewords to the different frequencies (triplet). The approach continue swapping between the population individuals until a balance is found between inter-switches and intra-switches.
+In the experiments, we compare the performance of the classical Huffman code with the performance of the proposed method in terms of the total number of switching. Table 2 presents the results obtained by the proposed approach and the classical Huffman code. The results are presented as the total number of switching activities in both the approaches and the improvement rate. The improvement rate (reduction ratio) is calculated as:\\
+\begin{equation}
+Improvement~ Rate = (1-\frac{Switching~ in ~proposed~ approach}{Switching~ in ~ the ~Huffman ~code})\times 100
+\end{equation}
+ \\The results show that the proposed approach optimises the total number of switching  of the whole genome by reducing the total number of inter- and intra-switching. In the best case the proposed approach reduces the total number of switching over the classical Huffman code by $45.47\%$, in the worst case by $16.42\%$, and on an average by $36.45\%$. 
  
 \section{Conclusion}
 In this paper, we showed how switching activities affect the power consumption in digital communication. After that, a relationship between the Huffman code and the switching activities is shown. Genetic
